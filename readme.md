@@ -1,4 +1,6 @@
-﻿# Host
+# Secrets Example
+
+## Host
 
 A **Host** is a handy way of bundling together your app's resources such as service dependencies and configuration etc.
 
@@ -21,7 +23,7 @@ This includes the following configuration sources, so there is no need to add th
 >For more info on the default builder, see https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/generic-host?view=aspnetcore-3.1#default-builder-settings-1
 
 
-# Environment variables
+## Environment variables
 
 You can set 'environment variables' on your machine which will be added to the default configuration as explained above.
 
@@ -50,7 +52,7 @@ To achieve this, we just set an environment var with the key "DOTNET_ENVIRONMENT
 > 
 >See https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-5.0#environments
 
-# Using this sample
+## Using this sample
 
 1. If you just run the app using
 

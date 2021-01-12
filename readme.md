@@ -37,7 +37,7 @@ If you are using Powershell, the command to set a variable is:
 
 The environment can have any name, but 'Development', 'Staging' and 'Production' are commonly used and some helper methods are provided for checking / using them.
 
->This will only be set for the **current Powershell session only** - if you want it to persist, you will need to add it at the system level
+>This will be set for the **current Powershell session only** - if you want it to persist, you will need to add it at the system level
 
 
 We also mentioned above that secrets will be loaded if you are in a Development environment.
